@@ -10,6 +10,7 @@ public class Ticket {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
+	
 	private int prn;
 	private String destination;
 	private String source;
