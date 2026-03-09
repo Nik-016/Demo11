@@ -15,6 +15,7 @@ public class Ticket {
 	private String source;
 	private double price;
 	private int seatNo;
+	
 	public int getId() {
 		return id;
 	}
