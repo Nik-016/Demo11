@@ -10,13 +10,11 @@ public class Ticket {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
-	
 	private int prn;
 	private String destination;
 	private String source;
 	private double price;
 	private int seatNo;
-	
 	public int getId() {
 		return id;
 	}
