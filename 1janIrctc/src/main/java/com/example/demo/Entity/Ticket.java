@@ -16,6 +16,8 @@ public class Ticket {
 	private int id;
 	private int prn;
 	private String destination;
+
+	
 	private String source;
 	private double price;
 	private int seatNo;
