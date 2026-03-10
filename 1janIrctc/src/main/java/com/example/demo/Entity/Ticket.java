@@ -1,9 +1,13 @@
 package com.example.demo.Entity;
 
 import jakarta.persistence.Entity;
+
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
+
 import jakarta.persistence.Id;
+
+
 
 @Entity
 public class Ticket {
@@ -15,6 +19,7 @@ public class Ticket {
 	private String source;
 	private double price;
 	private int seatNo;
+
 	
 	public int getId() {
 		return id;
